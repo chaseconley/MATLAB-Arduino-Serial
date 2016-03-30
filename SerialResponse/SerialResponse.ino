@@ -53,4 +53,6 @@ int getResponse(){
        Serial.println('A');   // send a capital A
        delay(300);
      }
+     
+     inByte = Serial.read();
  }
